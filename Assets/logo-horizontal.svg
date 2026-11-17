@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4ddd12"/><stop offset="1" stop-color="#003618"/></linearGradient>
+</defs>
+<g fill="none" stroke="#ffdc00" stroke-width="24" stroke-linecap="round">
+ <path d="M45 330 C90 65 350 0 505 120 C565 170 530 260 470 310"/>
+ <path d="M45 350 C180 470 385 450 500 385"/>
+</g>
+<rect x="90" y="100" width="365" height="230" rx="25" fill="#fff"/>
+<rect x="108" y="118" width="329" height="194" rx="14" fill="#003618"/>
+<g fill="#ffffcd">
+ <rect x="120" y="130" width="153" height="88" rx="7"/><rect x="280" y="130" width="145" height="88" rx="7"/>
+ <rect x="120" y="228" width="153" height="72" rx="7"/><rect x="280" y="228" width="145" height="72" rx="7"/>
+</g>
+<g fill="#003618">
+ <circle cx="196" cy="163" r="18"/><path d="M158 205 Q160 177 196 177 Q232 177 234 205Z"/>
+ <circle cx="352" cy="163" r="18"/><path d="M314 205 Q316 177 352 177 Q388 177 390 205Z"/>
+ <circle cx="196" cy="255" r="16"/><path d="M162 291 Q164 268 196 268 Q228 268 230 291Z"/>
+ <circle cx="352" cy="255" r="16"/><path d="M318 291 Q320 268 352 268 Q384 268 386 291Z"/>
+</g>
+<path d="M250 330 L250 365 M185 365 H315" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+<circle cx="420" cy="320" r="82" fill="#fff"/><circle cx="420" cy="320" r="72" fill="#003618"/>
+<rect x="376" y="293" width="62" height="54" rx="9" fill="#fff"/><path d="M438 306 L477 284 V356 L438 334Z" fill="#fff"/>
+<text x="570" y="250" font-family="Arial,sans-serif" font-size="190" font-weight="800" fill="#003618">LG</text>
+<text x="575" y="400" font-family="Arial,sans-serif" font-size="112" font-style="italic" font-weight="800" fill="#ffdc00">Conferece</text>
+<path d="M575 450 Q1050 520 1530 420" stroke="#00762b" stroke-width="18" fill="none" stroke-linecap="round"/>
+</svg>

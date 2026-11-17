@@ -51,9 +51,10 @@ ares-launch -d mitv com.sergio.conference
 
 ## Estructura del repositorio
 
-- `index.html`: Aplicación principal webOS y cliente web multi-participante.
-- `appinfo.json`: Manifiesto webOS (`id: com.sergio.conference`, `version: 2.0.0`, `title: LG Conference`).
+- `index.html`: Aplicación principal webOS y cliente web multi-participante con paleta verde/amarillo/crema (`#003618`, `#00762B`, `#4DDD12`, `#FFDC00`, `#FFFFCD`).
+- `appinfo.json`: Manifiesto webOS (`id: com.sergio.conference`, `version: 2.0.0`, `title: LG Conferece`, `iconColor: #003618`).
 - `Assets/js/peerjs.min.js`: PeerJS 1.5.2 local compatible con Chromium 79/87 de webOS.
-- `icon.png`, `largeIcon.png`, `og-image.png`: Iconografía de la app.
+- `Assets/`: Recursos gráficos propios de LG Conferece (`app-icon.png`, `icon-64/128/192/512.png`, `logo.png`, `logo-horizontal.png/.svg`, `favicon.ico`, `og-image.png`).
+- `icon.png` (80×80 px), `largeIcon.png` (130×130 px), `og-image.png` (1200×630 px): Iconos oficiales de lanzador webOS y miniatura OpenGraph.
 - `com.sergio.conference_2.0.0_all.ipk`: Paquete instalable generado con `ares-package`.
 - `diagnostico.html`: Utilidad independiente de diagnóstico de cámara y micrófono (`getUserMedia`).
