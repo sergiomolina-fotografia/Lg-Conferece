@@ -1,0 +1,17 @@
+{
+  "id": "com.sergio.conference",
+  "version": "2.0.0",
+  "vendor": "Sergio",
+  "type": "web",
+  "main": "index.html",
+  "title": "LG Conference",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "resolution": "1920x1080",
+  "allowAudioCapture": true,
+  "allowVideoCapture": true,
+  "useCamera": true,
+  "useGraphicCamera": true,
+  "handlesRelaunch": false,
+  "disableBackHistoryAPI": false
+}
