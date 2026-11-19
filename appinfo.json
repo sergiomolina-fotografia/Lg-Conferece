@@ -14,5 +14,6 @@
   "useCamera": true,
   "useGraphicCamera": true,
   "handlesRelaunch": false,
-  "disableBackHistoryAPI": false
+  "disableBackHistoryAPI": false,
+  "enablePigScreenSaver": false
 }
