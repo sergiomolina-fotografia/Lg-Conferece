@@ -65,7 +65,7 @@ var audioSlotOwner={};
 
 function msg(t,err){$('lobby-status').textContent=t||'';$('lobby-status').className=err?'error':''}
 function syncWaShareBtn(){var b=$('btn-wa-share');if(!b)return;if(!isWeb){b.classList.add('hidden');b.disabled=true;return}b.classList.remove('hidden');b.disabled=!(myCode&&peer&&peer.open)}
-function shareWhatsApp(){if(!isWeb||!myCode||!peer||!peer.open)return;var shareUrl=(location.href||'https://sergiomolina-fotografia.github.io/Lg-Conferece/').split('#')[0].split('?')[0];var text='Te invito a una videollamada en LG Conferece.\nCódigo de sala: *'+myCode+'*\nEntrá desde este enlace: '+shareUrl;var waUrl='https://wa.me/?text='+encodeURIComponent(text);var w=null;try{w=window.open(waUrl,'_blank')}catch(e){}if(w){try{w.opener=null}catch(e){}}else{try{location.href=waUrl}catch(e){}}}
+function shareWhatsApp(){if(!isWeb||!myCode||!peer||!peer.open)return;var waUrl='https://wa.me/?text='+encodeURIComponent(myCode);var w=null;try{w=window.open(waUrl,'_blank')}catch(e){}if(w){try{w.opener=null}catch(e){}}else{try{location.href=waUrl}catch(e){}}}
 function code(){var c='ABCDEFGHJKLMNPQRSTUVWXYZ23456789',s='';for(var i=0;i<6;i++)s+=c[Math.floor(Math.random()*c.length)];return s}
 function peerState(c,t){$('peer-dot').className='dot '+c;$('peer-status').textContent=t}
 function callMsg(t){$('call-message').textContent=t;$('call-message').classList.remove('hidden');setTimeout(function(){ $('call-message').classList.add('hidden') },4500)}
